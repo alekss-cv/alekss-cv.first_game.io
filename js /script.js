@@ -5,7 +5,7 @@ console.log(rocKet);
 const rocket__game = document.getElementById('rocket__game');
 const aliens__game = document.getElementById('aliens__game');
 
-document.addEventListener("keydown", function(event){
+document.addEventListener("click", function(event){
   jump();
 });
 
