@@ -22,7 +22,7 @@ let isAlive = setInterval( function(){
     let rocket__gameTop = parseInt(window.getComputedStyle(rocket__game).getPropertyValue("top"));
     let aliens__gameLeft = parseInt(window.getComputedStyle(aliens__game).getPropertyValue("left"));
 
-    if (aliens__gameLeft </*80*/ 80 && aliens__gameLeft > 0 && rocket__gameTop >= 140){
+    if (aliens__gameLeft </*80*/ 50 && aliens__gameLeft > 0 && rocket__gameTop >= 150){
       alert("земля захвачена.......GAME OVER !")
 
     }
