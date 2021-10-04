@@ -127,3 +127,31 @@ h1 {
   left:0;
   z-index: 3;
 }
+
+@media(max-width:1081px){
+  #aliens__game{
+    animation: aliensMov 1.8s infinite linear;
+  }
+}
+@media(max-width:580px){
+  #rocket__game{
+    height: 35px;
+    width:35px;
+    background-size:35px 35px;
+  }
+  #aliens__game{
+    height: 65px;
+    width: 65px;
+    background-size:65px 65px;
+  }
+  .border{
+    border:5px solid #724DA6;
+  }
+  .img__bcg{
+    background: url("img/bcg.jpg") no-repeat;
+    height:100%;
+  }
+  h1{
+    font-size: 10px;
+  }
+}
